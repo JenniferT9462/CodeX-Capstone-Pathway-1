@@ -2,5 +2,6 @@ body {
     background-image: linear-gradient(to bottom right, slateblue, violet);
     min-height: 100vh;
     color: violet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
