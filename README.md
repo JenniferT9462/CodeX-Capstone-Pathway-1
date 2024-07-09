@@ -10,6 +10,8 @@ ROADMAP
 
 
 WIREFRAME
+
+
                                                 index.html
 ![Home](https://github.com/JenniferT9462/CodeX-Capstone-Pathway-1/assets/63979357/5327a360-5b38-400b-b15d-2ca8a4f6c38d)
                                                 shop.html
