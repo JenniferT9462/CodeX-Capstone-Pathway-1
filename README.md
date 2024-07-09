@@ -15,8 +15,8 @@ BUILT WITH
 
 ROADMAP
 
-* [] Create Wireframes (4 pages)
-* [] Create Repository
+ [x] Create Wireframes (4 pages)
+* [x] Create Repository
 * [] HTML Page 1
 * [] HTML Page 2
 * [] HTML Page 3
