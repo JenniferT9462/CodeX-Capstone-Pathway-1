@@ -40,7 +40,7 @@ WIREFRAME
 
 CONTACT
 
-jennifertarleton@gmail.com
+Author: Jennifer Tarleton - jennifertarleton@gmail.com
 
 ACKNOWLEDGEMENTS
 
