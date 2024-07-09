@@ -15,17 +15,17 @@ BUILT WITH
 
 ROADMAP
 
-[] Create Wireframes (4 pages)
-[] Create Repository
-[] HTML Page 1
-[] HTML Page 2
-[] HTML Page 3
-[] HTML Page 4
-[] CSS
-[] BootStrap
-[] JavaScript - Event Listener
-[] JavaScript - If statements
-[] JavaScript - For Loops
+* [] Create Wireframes (4 pages)
+* [] Create Repository
+* [] HTML Page 1
+* [] HTML Page 2
+* [] HTML Page 3
+* [] HTML Page 4
+* [] CSS
+* [] BootStrap
+* [] JavaScript - Event Listener
+* [] JavaScript - If statements
+* [] JavaScript - For Loops
 
 
 WIREFRAME
