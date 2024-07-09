@@ -44,3 +44,10 @@ jennifertarleton@gmail.com
 
 ACKNOWLEDGEMENTS
 
+* AI Image Generator [link](https://designer.microsoft.com/image-creator)
+* Get BootStrap [link](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* Canva
+* W3Schools CSS Reference [link](https://www.w3schools.com/cssref/index.php)
+* W3Schools HTML Reference [link](https://www.w3schools.com/tags/default.asp)
+* Catera S., Adia H. and Chris A, helped me stay on deadlines.
+
