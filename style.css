@@ -1,7 +1,41 @@
 body {
     background-image: linear-gradient(to bottom right, slateblue, violet);
     min-height: 100vh;
-    color: violet;
+    color: rgb(183, 8, 183);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+footer {
+    background-color: purple;
+    color: white;
+}
+img {
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+.navbar-custom {
+    background-color: purple;
+}
+.nav-item {
+    background-color: violet;
+    color: purple;
+}
+.active {
+    background-color: purple;
+}
+.nav-pills .nav-link.active {
+    background-color: slateblue;
+}
+#gamerAnna {
+    width: 200px;
+    margin-left: 0px;
+}
+.whenToWatch {
+    background-color: purple;
+    color: white;
+}
+.whatToWatch {
+    background-color: slateblue;
+    color: violet;
 }
