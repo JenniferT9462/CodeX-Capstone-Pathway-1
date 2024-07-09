@@ -26,6 +26,7 @@ ROADMAP
 * [] JavaScript - Event Listener
 * [] JavaScript - If statements
 * [] JavaScript - For Loops
+* [] Deploy pages on GitHub
 
 
 WIREFRAME
