@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(to bottom right, slateblue, violet);
     min-height: 100vh;
-    color: rgb(183, 8, 183);
+    color: purple;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
@@ -43,6 +43,14 @@ img {
     box-shadow: 0px 3px violet;
 }
 .robloxGame {
-    width: 340px;
+    width: 300px;
     margin-left: 0px;
+}
+.linkToGames {
+    background-color: slateblue;
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-radius: 4px;
+    padding: 2px;
 }
