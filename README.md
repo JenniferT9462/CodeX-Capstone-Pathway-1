@@ -1,10 +1,10 @@
 # CodeX-Capstone-Pathway-1
-ABOUT
+## ABOUT
 
   A website about a kid YouTuber where you can shop for their merchandise, play mini-games, look at their projects and learn about the YouTuber and what they are up to. 
   
   
-BUILT WITH
+## BUILT WITH
 
 * Canva
 * HTML
@@ -13,7 +13,7 @@ BUILT WITH
 * BootStrap
 
 
-ROADMAP
+## ROADMAP
 
 * [x] Create Wireframes (4 pages)
 * [x] Create Repository
@@ -29,7 +29,7 @@ ROADMAP
 * [ ] Deploy pages on GitHub
 
 
-WIREFRAME
+## WIREFRAME
 
 <img src="https://github.com/JenniferT9462/CodeX-Capstone-Pathway-1/assets/63979357/5327a360-5b38-400b-b15d-2ca8a4f6c38d" height="420" width="220">
 
@@ -39,11 +39,11 @@ WIREFRAME
 
 
 
-CONTACT
+## CONTACT
 
-Author: Jennifer Tarleton - jennifertarleton@gmail.com
+**Author: Jennifer Tarleton** - jennifertarleton@gmail.com
 
-ACKNOWLEDGEMENTS
+## ACKNOWLEDGEMENTS
 
 * AI Image Generator [link](https://designer.microsoft.com/image-creator)
 * Get BootStrap [link](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
