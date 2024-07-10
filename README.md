@@ -31,7 +31,7 @@ ROADMAP
 
 WIREFRAME
 
-![](img/Home.png =200x400)
+<img src="https://github.com/JenniferT9462/CodeX-Capstone-Pathway-1/assets/63979357/5327a360-5b38-400b-b15d-2ca8a4f6c38d" height="420" width="220">
 
 <img src="https://github.com/JenniferT9462/CodeX-Capstone-Pathway-1/assets/63979357/6d489034-b274-4afd-a042-bf68b288daa4" height="420" width="220">
 <img src="https://github.com/JenniferT9462/CodeX-Capstone-Pathway-1/assets/63979357/7f15decd-fe2e-4eb9-a52f-9f3bac76ebc2" height="420" width="220">
