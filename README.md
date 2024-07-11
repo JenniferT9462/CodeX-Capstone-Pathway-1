@@ -9,6 +9,8 @@
 * Canva
 * HTML
 * CSS
+* Microsoft AI Image Creator
+* PhotoShop
 * JavaScript
 * BootStrap
 
