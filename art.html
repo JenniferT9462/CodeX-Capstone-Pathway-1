@@ -14,13 +14,14 @@
     <title>Capstone 1</title>
   </head>
   <body>
+    <!-- BootStrap Nav w/ custom external CSS for colors -->
     <nav class="nav nav-pills justify-content-end navbar-custom">
       <a class="nav-item nav-link mx-4" href="index.html">Home</a>
       <a class="nav-item nav-link ml-4" href="shop.html">Shop</a>
       <a class="nav-item nav-link mx-4" href="games.html">Games</a>
-      <a class="nav-item nav-link ml-4 active" href="gallery.html">Art</a>
+      <a class="nav-item nav-link ml-4 active" href="art.html">Art</a>
     </nav>
-
+    <!-- Banner - TODO: want to make a background-image in PhotoShop later and use on the other pages too. -->
     <div class="bg-white text-center">
       <div class="row">
         <div class="col">
@@ -41,7 +42,8 @@
       </div>
     </div>
 
-    <!-- BootStrap cards with link, title, and paragraph -->
+    <!-- BootStrap cards with title and paragraph--> 
+    <!-- TODO: will make btn do something later and change images to real artwork. -->
     <h2 class="text-center my-5">Artwork</h2>
     <div class="container">
       <div class="row">
@@ -71,81 +73,24 @@
               <div class="card-body">
                 <h5 class="card-title">Title</h5>
                 <p class="card-text">Description of Artwork</p>
-                <a href="#" class="btn btn-primary">Learn more</a>
+                <button 
+                  type="button" 
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="card-modal"
+                  >Learn more</button>
               </div>
             </div>
          </div>
       </div>
     </div>
 
+    
+       
 
+    <!-- TODO: Display projects -->
     <h2 class="text-center my-5">Projects</h2>
-    <!-- Carousel with indicators and text  -->
-    <div id="carouselCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/testCarouselImg.jpg" class="d-block w-90" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Project 1 Title</h5>
-            <p>Description of Project 1</p>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <img src="img/testCarouselImg.jpg" class="d-block w-90" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Project 2 Title</h5>
-            <p>Description of Project 2</p>
-          </div>
-        </div>
-        <div class="carousel-item active">
-          <img src="img/testCarouselImg.jpg" class="d-block w-90" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Project 3 Title</h5>
-            <p>Description of Project 3</p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselCaptions"
-        data-bs-slide="prev" 
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+   
 
     <footer class="text-center">
       <p>Created at CodeX &copy;</p>
