@@ -21,7 +21,7 @@
 * [x] Create Repository
 * [x] HTML Page 1
 * [x] HTML Page 2
-* [ ] HTML Page 3
+* [x] HTML Page 3
 * [ ] HTML Page 4
 * [x] CSS
 * [x] BootStrap
@@ -47,10 +47,10 @@
 
 ## ACKNOWLEDGEMENTS
 
-* AI Image Generator [link](https://designer.microsoft.com/image-creator)
-* Get BootStrap [link](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* AI Image Generator [Microsoft](https://designer.microsoft.com/image-creator)
+* Get BootStrap [Get BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 * Canva
-* W3Schools CSS Reference [link](https://www.w3schools.com/cssref/index.php)
-* W3Schools HTML Reference [link](https://www.w3schools.com/tags/default.asp)
+* W3Schools CSS Reference [W3Schools]](https://www.w3schools.com/cssref/index.php)
+* W3Schools HTML Reference [W3Schools](https://www.w3schools.com/tags/default.asp)
 * Catera S., Adia H. and Chris A, helped me stay on deadlines.
 
