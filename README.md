@@ -25,6 +25,7 @@
 * [x] HTML Page 4
 * [x] CSS
 * [x] BootStrap
+* [ ] Banner in PhotoShop
 * [ ] JavaScript - Function w/return statement
 * [ ] JavaScript - Event Listeners
 * [ ] JavaScript - If statements
