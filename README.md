@@ -22,7 +22,7 @@
 * [x] HTML Page 1
 * [x] HTML Page 2
 * [x] HTML Page 3
-* [ ] HTML Page 4
+* [x] HTML Page 4
 * [x] CSS
 * [x] BootStrap
 * [ ] JavaScript - Event Listeners
