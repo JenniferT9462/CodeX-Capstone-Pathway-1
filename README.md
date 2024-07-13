@@ -52,5 +52,6 @@
 * Canva
 * W3Schools CSS Reference [W3Schools](https://www.w3schools.com/cssref/index.php)
 * W3Schools HTML Reference [W3Schools](https://www.w3schools.com/tags/default.asp)
+* Of Course the inspiration - Anna Tarleton
 * Catera S., Adia H. and Chris A, helped me stay on deadlines.
 
