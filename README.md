@@ -25,6 +25,7 @@
 * [x] HTML Page 4
 * [x] CSS
 * [x] BootStrap
+* [ ] Collect/insert artwork and video 
 * [ ] Banner in PhotoShop
 * [ ] JavaScript - Function w/return statement
 * [ ] JavaScript - Event Listeners
