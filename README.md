@@ -25,6 +25,7 @@
 * [x] HTML Page 4
 * [x] CSS
 * [x] BootStrap
+* [ ] JavaScript - Function w/return statement
 * [ ] JavaScript - Event Listeners
 * [ ] JavaScript - If statements
 * [ ] JavaScript - For Loops
