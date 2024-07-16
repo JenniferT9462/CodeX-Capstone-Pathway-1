@@ -27,8 +27,8 @@
 * [x] BootStrap
 * [ ] Collect/insert artwork and video 
 * [ ] Banner in PhotoShop
-* [ ] JavaScript - Function w/return statement
-* [ ] JavaScript - Event Listeners
+* [x] JavaScript - Function w/return statement
+* [x] JavaScript - Event Listeners
 * [ ] JavaScript - If statements
 * [ ] JavaScript - For Loops
 * [x] Deploy pages on GitHub
