@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to bottom right, slateblue, violet);
+    min-height: 100vh;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer {
+    background-color: purple;
+    color: white;
+}
+.navbar-custom {
+    background-color: purple;
+}
+.nav-item {
+    background-color: violet;
+    color: purple;
+}
+.active {
+    background-color: purple;
+}
+.nav-pills .nav-link.active {
+    background-color: slateblue;
+}
+.bg-white {
+    box-shadow: 0px 10px 5px violet;
+}
+.offcanvas-footer {
+    display: flex;
+}
+.subtotal {
+    width: 100%;
+    font-size: larger;
+}
+.checkout {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
+.cartItemImg {
+    width: 60px;
+    height: 60px;
+}
