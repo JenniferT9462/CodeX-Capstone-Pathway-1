@@ -54,4 +54,16 @@ img {
     border-radius: 4px;
     padding: 2px;
 }
-
+.offcanvas-footer {
+    display: flex;
+}
+.subtotal {
+    width: 100%;
+    font-size: larger;
+}
+.checkout {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+}
+.invert {filter: invert(100%);}
