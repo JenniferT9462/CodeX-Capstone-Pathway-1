@@ -11,28 +11,24 @@ shop = {
     whiteTshirt:  {
         title: "Gamer Anna White T-Shirt",
         info: "White T-Shirt w/ Gamer Anna logo",
-        // src: URL(img/tShirt2.png),
         price: 19.99
 
     },
     blackTshirt:  {
         title: "Gamer Anna Black T-Shirt",
         info: "Black T-Shirt w/Gamer Anna logo",
-        // src: URL(img/tShirt1.png),
         price: 19.99
 
     },
     whiteHoodie:  {
         title: "Gamer Anna White Hoodie",
         info: "White hoodie w/Gamer Anna logo",
-        // src: URL(img/whiteHoodie.png),
         price: 29.99
 
     },
     blackHoodie:  {
         title: "Gamer Anna Black Hoodie",
         info: "Black hoodie w/Gamer Anna logo",
-        // src: URL(img/blackHoodie.png),
         price: 29.99
     }
 }
