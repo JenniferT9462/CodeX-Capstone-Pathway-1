@@ -25,7 +25,7 @@
 * [x] HTML Page 4
 * [x] CSS
 * [x] BootStrap
-* [ ] Collect/insert artwork and video 
+* [x] Collect/insert artwork and video 
 * [x] JavaScript - Function w/return statement
 * [x] JavaScript - Event Listeners
 * [x] JavaScript - If statements
