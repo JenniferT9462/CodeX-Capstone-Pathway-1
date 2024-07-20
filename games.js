@@ -58,7 +58,7 @@ const winningCombos = [
     [0, 4, 8],
     [2, 4, 6]
 ];
-//Function to check winning combos
+//Function to check winning combos...w/the parameter of currentPlayer
 function checkWin(currentPlayer) {
     //Loop thru winningCombos
     for(let i = 0; i < winningCombos.length; i++){
