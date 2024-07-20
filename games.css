@@ -26,10 +26,15 @@ footer {
 #gamerAnna {
     width: 200px;
     margin-left: 0px;
+    
+}   
+#gamesHeader {
+    margin-left: 0px;
+    padding: 0px;
 }
 .bg-white {
     box-shadow: 0px 10px 5px violet;
-    /* background-image: url(img/banner3.jpg); */
+    
 }
 .robloxGame {
     width: 300px;
@@ -57,10 +62,6 @@ footer {
     background-image: linear-gradient(to bottom right, slateblue, violet);
 }
 
-h1 {
-    text-align: center;
-}
-
 #board {
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +71,9 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
 }
-
+#tictactoeHeader {
+    text-align: center;
+}
 .square {
     width: 120px;
     height: 120px;
@@ -115,3 +118,4 @@ h1 {
     background-color: rgba(0,0,255,0.25);
     color: indigo;
 }
+
