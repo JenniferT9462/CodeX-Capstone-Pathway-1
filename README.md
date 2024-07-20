@@ -26,11 +26,10 @@
 * [x] CSS
 * [x] BootStrap
 * [ ] Collect/insert artwork and video 
-* [ ] Banner in PhotoShop
 * [x] JavaScript - Function w/return statement
 * [x] JavaScript - Event Listeners
-* [ ] JavaScript - If statements
-* [ ] JavaScript - For Loops
+* [x] JavaScript - If statements
+* [x] JavaScript - For Loops
 * [x] Deploy pages on GitHub
 
 
