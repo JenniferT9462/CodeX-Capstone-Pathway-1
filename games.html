@@ -10,7 +10,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="tic-tac-toe.css">
     <link rel="stylesheet" href="style.css" />
+
     <title>Capstone 1</title>
   </head>
   <body>
@@ -91,28 +93,73 @@
         <div class="col">
           <div class="mt-5" style="width: 400px">
             <h2>Mini-Games</h2>
-            <div class="game1 mb-5 p-5 border border-3 rounded rounded-4 shadow">
-              <h4>Game 1</h4>
-              <img 
-                class="game-1-img"
-                src="" 
-                alt="Game 1 image">
-                <p class="game1Paragraph"></p>
-              <button class="btn btn-success">Play</button>
+            <div class="game1 mb-5 p-2 border border-3 rounded rounded-4 text-center shadow">
+              <h4>Guess Anna's Favorite Animal</h4>
+              <p id="game1Img">
+
+              </p>
+                <h2 id="game1Header"></h2>
+                <p id="game1Results"></p>
+                <p id="game1Paragraph"></p>
+              <button id="game1btn" class="btn btn-success">Play</button>
             </div>
-            <div class="game2 mb-5 p-5 border border-3 rounded rounded-4 shadow">
-              <h4>Game 2</h4>
-              <img 
-                class="game-2-img"
-                src="" 
-                alt="Game 2 image">
-                <p class="game2Paragraph"></p>
-              <button class="btn btn-success">Play</button>
+            <div class="game2 mb-5 p-2 border border-3 rounded rounded-4 text-center shadow">
+                <!-- <h2 id="game2Header"></h2>
+                <p id="game2Results"></p>
+                <p id="game2Paragraph"></p> -->
+                
+                  <h4 class="mb-3">Tic Tac Toe</h4>
+                  <img 
+                  class="game-2-img"
+                  id="game2Img"
+                  src="img/tictactoe.png" 
+                  alt="Game 2 image"
+                  style="width: 200px;">
+                  <button id="game2btn" class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Play</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header modal-custom">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Let's Play Tic Tac Toe!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="title">
+          <h1>Tic Tac Toe</h1>
+      </div>
+      <div id="board">
+          <div class="square right-border bottom-border" id="square0"></div>
+          <div class="square right-border bottom-border" id="square1"></div>
+          <div class="square bottom-border" id="square2"></div>
+          <div class="square right-border bottom-border" id="square3"></div>
+          <div class="square right-border bottom-border" id="square4"></div>
+          <div class="square bottom-border" id="square5"></div>
+          <div class="square right-border" id="square6"></div>
+          <div class="square right-border" id="square7"></div>
+          <div class="square" id="square8"></div>
+      </div>  
+      <div id="endGame">
+          <input type="button" value="Restart" id="restartButton" onclick="restartButton()"/>
+      </div>
+      
+      </div>
+      <div class="modal-footer modal-custom">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
 
 
 
@@ -129,5 +176,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="games.js"></script>
   </body>
 </html>
