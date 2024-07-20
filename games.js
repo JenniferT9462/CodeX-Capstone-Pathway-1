@@ -27,16 +27,24 @@ function guessTheAnimal() {
 }
 game1btn.onclick = guessTheAnimal;
 
+
+// Tic Tac Toe
+//Setting up variables
 const board = document.getElementById('board')
 const squares = document.getElementsByClassName('square')
+// Players are in an array to easily access later
 const players = ['X', 'O']
+// Start with player 'X'...0 is the index for players which is 'X'
 let currentPlayer = players[0]
+// Create a Header that will display turns and results
 const endMessage = document.createElement('h2')
+// Start with 'X' set margin and align text
 endMessage.textContent = `X's turn!`
 endMessage.style.marginTop = '30px'
 endMessage.style.textAlign='center'
+// 
 board.after(endMessage)
-
+// winning combos
 const winning_combinations = [
     [0, 1, 2],
     [3, 4, 5],
@@ -47,18 +55,23 @@ const winning_combinations = [
     [0, 4, 8],
     [2, 4, 6]
 ]
-
+// For loop thru squares on the board...squares is now an array of the classes
 for(let i = 0; i < squares.length; i++){
+    // Make squares clickable
     squares[i].addEventListener('click', () => {
+        // if there is nothing in the squares return until clicked
         if(squares[i].textContent !== ''){
             return
-        }
+        } //Setting the content of the square in squares to currentPlayer
         squares[i].textContent = currentPlayer
+        // Checking to see if the currentPlayer that has a winning combo...w/ a function checkWin()
         if(checkWin(currentPlayer)) {
+            // Whoever the winner is...print out results
             endMessage.textContent=`Game over! ${currentPlayer} wins!`
             return
-        }
+        } //Check for a tie w/checkTie function
         if(checkTie()) {
+            //Print out tied game
             endMessage.textContent= `Game is tied!`
             return
         }
@@ -71,7 +84,7 @@ for(let i = 0; i < squares.length; i++){
     })   
 }
 
-// Tic Tac Toe
+//Function to check winning combos
 function checkWin(currentPlayer) {
     for(let i = 0; i < winning_combinations.length; i++){
         const [a, b, c] = winning_combinations[i]
@@ -81,7 +94,7 @@ function checkWin(currentPlayer) {
     }
     return false
 }
-
+//Function to check for a tie
 function checkTie(){
     for(let i = 0; i < squares.length; i++) {
         if(squares[i].textContent === '') {
@@ -90,7 +103,7 @@ function checkTie(){
     }
     return true
 }
-
+//Function to reset the board
 function restartButton() {
     for(let i = 0; i < squares.length; i++) {
         squares[i].textContent = ""
@@ -98,4 +111,4 @@ function restartButton() {
     endMessage.textContent=`X's turn!`
     currentPlayer = players[0]
 }
-// Hover on turn
+
