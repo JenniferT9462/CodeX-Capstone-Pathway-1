@@ -10,12 +10,17 @@
 function guessTheAnimal() {
     let userChoice = prompt("Guess what Anna's favorite animal is!").toLowerCase();
     let annasChoice = "giraffe";
-    let guesses = 0;
+
     // alert("Hello!");
     if (userChoice === annasChoice) {
-       return alert("You Win!");
+       document.getElementById("game1Img").innerHTML = `<img src="img/giraffe.jpeg" style="width: 200px;">`;
+       document.getElementById("game1Header").innerHTML = "Yay!! You Won!";
+    
+       document.getElementById("game1Paragraph").innerHTML = "You guessed it! Anna's fav animal is a Giraffe!";
+       
     } else {
-        return alert("Guess Again!!");
+        alert("Guess Again!! HINT: They have really long necks!!");
+        return 
     }
 
 
@@ -93,3 +98,4 @@ function restartButton() {
     endMessage.textContent=`X's turn!`
     currentPlayer = players[0]
 }
+// Hover on turn

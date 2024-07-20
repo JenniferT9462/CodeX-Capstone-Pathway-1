@@ -1,3 +1,4 @@
+
 body {  
     font-family: 'Poppins', sans-serif;
 	background-color: violet;
@@ -22,7 +23,7 @@ h1 {
 .square {
     width: 120px;
     height: 120px;
-    
+    color: whitesmoke;
     background-color: violet;
     font-size: 40px;
     display: flex;
@@ -37,7 +38,11 @@ h1 {
 }
 
 .square:hover {
-    background-color: rgba(0,0,255,0.25);
+    background-image: url('img/gamerAnna.png');
+    background-color: rgba(0,0,255,0.1);
+    background-size: contain; 
+    opacity: .15;
+    
 	
 }
 
@@ -59,3 +64,13 @@ h1 {
     background-color: rgba(0,0,255,0.25);
     color: indigo;
 }
+/* Hover letters on turns */
+.x-hover:hover::after {
+    content: "X";
+    opacity: 0.4;
+  }
+  
+.o-hover:hover::after {
+    content: "O";
+    opacity: 0.4;
+  }
