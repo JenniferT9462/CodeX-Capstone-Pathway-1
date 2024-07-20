@@ -1,0 +1,117 @@
+
+body {  
+    background-image: linear-gradient(to bottom right, slateblue, violet);
+    min-height: 100vh;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer {
+    background-color: purple;
+    color: white;
+}
+.navbar-custom {
+    background-color: purple;
+}
+.nav-item {
+    background-color: violet;
+    color: purple;
+}
+.active {
+    background-color: purple;
+}
+.nav-pills .nav-link.active {
+    background-color: slateblue;
+}
+#gamerAnna {
+    width: 200px;
+    margin-left: 0px;
+}
+.bg-white {
+    box-shadow: 0px 10px 5px violet;
+    /* background-image: url(img/banner3.jpg); */
+}
+.robloxGame {
+    width: 300px;
+    margin-left: 0px;
+}
+.linkToGames {
+    background-color: slateblue;
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-radius: 4px;
+    padding: 2px;
+}
+.invert {filter: invert(100%);}
+
+.list-group-item {
+    background-color: violet;
+    color: purple;
+}
+.modal-custom {
+    background-color: purple;
+    color: slateblue;
+}
+.modal-body {
+    background-image: linear-gradient(to bottom right, slateblue, violet);
+}
+
+h1 {
+    text-align: center;
+}
+
+#board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    color: whitesmoke;
+    background-color: violet;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-border {
+    border-right: 0.2em solid purple;
+}
+.bottom-border {
+    border-bottom: 0.2em solid purple;
+}
+
+.square:hover {
+    background-image: url('img/gamerAnna.png');
+    background-color: rgba(0,0,255,0.1);
+    background-size: contain; 
+    opacity: .15;
+    
+	
+}
+
+#restartButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 150px;
+    background-color: slateblue;
+    border: solid 2px purple;
+	border-radius: 10px;
+    
+    font-size: 18px;
+	color: white;
+}
+
+#restartButton:hover {
+    background-color: rgba(0,0,255,0.25);
+    color: indigo;
+}
