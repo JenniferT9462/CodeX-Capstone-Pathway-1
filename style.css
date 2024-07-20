@@ -41,19 +41,7 @@ img {
 }
 .bg-white {
     box-shadow: 0px 10px 5px violet;
-    /* background-image: url(img/banner3.jpg); */
-}
-.robloxGame {
-    width: 300px;
-    margin-left: 0px;
-}
-.linkToGames {
-    background-color: slateblue;
-    text-decoration: none;
-    color: white;
-    border: solid;
-    border-radius: 4px;
-    padding: 2px;
+
 }
 .offcanvas-footer {
     display: flex;
@@ -66,4 +54,8 @@ img {
     display: block;
     width: 100%;
     margin-top: 12px;
+}
+.list-group-item {
+    background-color: violet;
+    color: purple;
 }

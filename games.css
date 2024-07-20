@@ -48,12 +48,6 @@ footer {
     border-radius: 4px;
     padding: 2px;
 }
-.invert {filter: invert(100%);}
-
-.list-group-item {
-    background-color: violet;
-    color: purple;
-}
 .modal-custom {
     background-color: purple;
     color: slateblue;
@@ -90,16 +84,12 @@ footer {
 .bottom-border {
     border-bottom: 0.2em solid purple;
 }
-
 .square:hover {
     background-image: url('img/gamerAnna.png');
     background-color: rgba(0,0,255,0.1);
     background-size: contain; 
     opacity: .15;
-    
-	
 }
-
 #restartButton {
     display: block;
     margin-left: auto;
@@ -112,7 +102,6 @@ footer {
     font-size: 18px;
 	color: white;
 }
-
 #restartButton:hover {
     background-color: rgba(0,0,255,0.25);
     color: indigo;
