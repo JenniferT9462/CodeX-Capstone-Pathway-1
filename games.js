@@ -33,20 +33,20 @@ game1btn.onclick = guessTheAnimal;
 
 // Tic Tac Toe
 //Setting up variables
-const board = document.getElementById('board');
+const gameBoard = document.getElementById('board');
 const squares = document.getElementsByClassName('square');
 // Players are in an array to easily access later
 const players = ['X', 'O'];
 // Start with player 'X'...0 is the index for players which is 'X'
 let currentPlayer = players[0];
 // Create a Header that will display turns and results. So they stay inside the modal. 
-const endMessage = document.createElement('h2');
+const gameMessage = document.createElement('h2');
 // Start with 'X' set margin and align text
-endMessage.textContent = `X's turn!`;
-endMessage.style.marginTop = '30px';
-endMessage.style.textAlign='center';
-// To add the created element <h2> that is now called endMessage will be displayed after the board.
-board.after(endMessage);
+gameMessage.textContent = `X's turn!`;
+gameMessage.style.marginTop = '30px';
+gameMessage.style.textAlign='center';
+// To add the created element <h2> that is now called gameMessage will be displayed after the board.
+gameBoard.after(endMessage);
 // winning combos in an array to access later. Each index will be another array of [a,b,c].
 const winningCombos = [
     [0, 1, 2],
@@ -99,21 +99,21 @@ for(let i = 0; i < squares.length; i++){
         //Function to find the winner based on winning combos. Function above.
         if(checkWin(currentPlayer)) {
            
-            endMessage.textContent=`Game over! ${currentPlayer} wins!`
+            gameMessage.textContent=`Game over! ${currentPlayer} wins!`
             return
         } 
         //Function to check for a tie. Function above.
         if(checkTie()) {
             
-            endMessage.textContent= `Game is tied!`
+            gameMessage.textContent= `Game is tied!`
             return
         }
         //Swap between players to get currentPlayer with a ternary operator to assign currentPlayer
         currentPlayer = (currentPlayer === players[0]) ? players[1] : players[0] 
         if(currentPlayer == players[0]) {
-            endMessage.textContent= `X's turn!`
+            gameMessage.textContent= `X's turn!`
         } else {
-            endMessage.textContent= `O's turn!`
+            gameMessage.textContent= `O's turn!`
         }     
         
     })   
@@ -128,7 +128,7 @@ function restartButton() {
         squares[i].textContent = ""
     }
     //Start beginning message and set currentPlayer back to 'X'
-    endMessage.textContent=`X's turn!`
+    gameMessage.textContent=`X's turn!`
     currentPlayer = players[0]
 }
 
