@@ -46,7 +46,7 @@ gameMessage.textContent = `X's turn!`;
 gameMessage.style.marginTop = '30px';
 gameMessage.style.textAlign='center';
 // To add the created element <h2> that is now called gameMessage will be displayed after the board.
-gameBoard.after(endMessage);
+gameBoard.after(gameMessage);
 // winning combos in an array to access later. Each index will be another array of [a,b,c].
 const winningCombos = [
     [0, 1, 2],
