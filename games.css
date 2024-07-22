@@ -56,7 +56,7 @@ footer {
     background-image: linear-gradient(to bottom right, slateblue, violet);
 }
 
-#board {
+#gameBoard {
     margin-left: auto;
     margin-right: auto;
     width: 375px;
@@ -68,7 +68,7 @@ footer {
 #tictactoeHeader {
     text-align: center;
 }
-.square {
+.tile {
     width: 120px;
     height: 120px;
     color: whitesmoke;
@@ -84,7 +84,7 @@ footer {
 .bottom-border {
     border-bottom: 0.2em solid purple;
 }
-.square:hover {
+.tile:hover {
     background-image: url('img/gamerAnna.png');
     background-color: rgba(0,0,255,0.1);
     background-size: contain; 
