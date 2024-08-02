@@ -1,12 +1,12 @@
 body {
     background-image: linear-gradient(to bottom right, slateblue, violet);
     min-height: 100vh;
-    color: purple;
+    color: rgb(75, 2, 75);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 footer {
-    background-color: purple;
+    background-color: rgb(75, 2, 75);
     color: white;
 }
 img {
@@ -15,14 +15,14 @@ img {
     width: 800px;
 }
 .navbar-custom {
-    background-color: purple;
+    background-color: rgb(75, 2, 75);
 }
 .nav-item {
-    background-color: violet;
-    color: purple;
+    background-color: rgb(215, 120, 215);
+    color: rgb(75, 2, 75);
 }
 .active {
-    background-color: purple;
+    background-color: rgb(75, 2, 75);
 }
 .nav-pills .nav-link.active {
     background-color: slateblue;
@@ -32,15 +32,15 @@ img {
     margin-left: 0px;
 }
 .whenToWatch {
-    background-color: purple;
+    background-color: rgb(75, 2, 75);
     color: white;
 }
 .whatToWatch {
     background-color: slateblue;
-    color: violet;
+    color: rgb(238, 156, 238);
 }
 .bg-white {
-    box-shadow: 0px 10px 5px violet;
+    box-shadow: 0px 10px 5px rgb(215, 120, 215);;
 
 }
 .offcanvas-footer {
@@ -56,7 +56,7 @@ img {
     margin-top: 12px;
 }
 .list-group-item {
-    background-color: violet;
-    color: purple;
+    background-color: rgb(215, 120, 215);
+    color: rgb(75, 2, 75);
 }
 
